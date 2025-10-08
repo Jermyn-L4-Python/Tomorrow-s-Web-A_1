@@ -1,0 +1,78 @@
+ *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  header{
+      font-family: 'Apple', sans-serif;
+      padding: 2px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      font-size: 25px;
+      align-items: center;
+  }
+
+  .logo img{
+    width: 100px;
+    height: auto;
+  }
+
+  ul{
+      display: flex;
+      gap: 20px;
+      list-style-type: none;
+  }
+
+  .navbar{
+    text-align: right;
+    justify-content: right;
+    
+  }
+
+  .navbar a{
+      color: #f5f5f5;
+      text-decoration: none;
+      border: none;
+      transition: 0.2s;
+      padding: 10px 20px;
+      border-radius: 20px;
+    }
+
+  .navbar a:hover{
+    padding: 10px 20px;
+    background-color: #FFFFCA;
+    border-radius: 20px;
+    color:#2A2727;
+  }
+
+  .play{
+      background-color: #FFFFCA;
+      margin-right: 10px;
+      font-size: 25px;
+      padding: 10px 20px;
+      border-radius: 30px;
+      transition: 0.2s ease;
+      color: #2A2727;
+      border: 2px solid #FFFFCA;
+      white-space: nowrap;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+
+  .play:hover{
+    background-color: #2A2727;
+    border: 2px solid #FFFFCA;
+    color: #FFFFCA;
+
+  }
+
+  .play a{
+      color: #2A2727;
+      text-decoration: none;
+      transition: 0.2s ease;
+  }
+
+  .play:hover a{
+    color: #FFFFCA;
+  }
